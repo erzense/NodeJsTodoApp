@@ -1,0 +1,69 @@
+body .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.app{
+    width: 100%;
+}
+
+body .container .app-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+}
+
+.showApp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.showApp .todolist {
+    width: 70%;
+}
+
+.todolist .todo-list-item{
+    width: 100%;
+    background-color: rgb(251, 251, 251);
+    margin-bottom: 5px;
+}
+
+.todo-item{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.todo-item .todo-item-text{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    float: left;
+    width: 90%;
+}
+
+.todo-item .todo-item-buttons{
+    display: flex;
+    gap: 5px;
+    width: 10%;
+    color: rgb(255, 255, 255);
+}
